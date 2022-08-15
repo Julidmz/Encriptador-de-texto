@@ -1,0 +1,274 @@
+/*body*/
+
+body {
+    background-color: rgb(23, 53, 51);
+}
+
+/*Header*/
+
+header {
+    background-color: rgb(68, 191, 185);
+    width: 1350px;
+    height: 100px;
+    box-shadow: -1px 10px 30px #228fd8;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/*Main   background-color: rgb(68, 191, 185);*/
+
+#contenedor{
+    background-color: rgb(68, 191, 185);;
+    height: 559px;
+    width: 850px;
+    margin: 20px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: -1px 10px 30px #228fd8;
+}
+
+.contenedor-texto {
+    position: relative;
+    top: 100px;
+    left: 280px;
+}
+
+.texto {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.piedepagina {
+    position: relative;
+    top: 600px;
+    left: 85px;
+}
+
+.btn-encriptar{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: -150px;
+    left: 100px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(169, 148, 189);
+}
+
+.btn-encriptar:hover {
+    background: rgb(168, 112, 221);
+    transform: scale(1.1);
+}
+
+.btn-desencriptar{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: -150px;
+    left: 400px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(169, 148, 189);
+
+}
+
+.btn-desencriptar:hover {
+    background: rgb(168, 112, 221);
+    transform: scale(1.1);
+}
+
+.contenedor-rectangulo {
+    background-color: rgb(68, 191, 185);;
+    height: 559px;
+    width: 450px;
+    position: absolute;
+    top: 120px;
+    left: 880px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: -1px 10px 30px #228fd8;
+}
+
+.contenedor-encriptado{
+    background-color: rgb(68, 191, 185);;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.boton-copiar {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 452px;
+    left: 130px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(169, 148, 189);
+}
+
+.boton-copiar:hover {
+    background: rgb(168, 112, 221);
+    transform: scale(1.1);
+}
+
+
+/*Diseño responsivo*/
+
+
+@media screen and (max-width: 1100px){
+
+    body{
+        width: auto;
+    }
+
+    header{
+        width: 0px;
+    }
+
+    #contenedor{
+        width: auto;
+    }
+    .texto {
+        position: absolute;
+        left: -263px;
+    }
+    .botones{
+        position: absolute;
+        left: -170px;
+    }
+    .btn-desencriptar{
+        position: absolute;
+        left: 310px;
+    }
+    .contenedor-rectangulo{
+        width: 440px;
+        position: absolute;
+        top: 700px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        width: auto;
+    }
+    #contenedor{
+        width: auto;
+        position: relative;
+        left: -5px;
+    }
+    .texto{
+        width: 280px;
+    }
+    .contenedor-texto{
+        position: absolute;
+        left: 285px;
+    }
+    section.contenedor-rectangulo{
+        width: 330px;
+        position: absolute;
+        top: 700px;
+        left: 15px;
+    }
+    .contenedor-encriptado{
+        width: 200px;
+    }
+    .botones{
+        position: relative;
+        left: -175px;
+    }
+    .btn-encriptar{
+        width: 150px;
+    }
+    .btn-desencriptar{
+        width: 150px;
+        position: relative;
+        left: 260px;
+    }
+    .boton-copiar{
+        width: 150px;
+        position: absolute;
+        left: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 414px){
+    body{
+        width: auto;
+    }
+    #contenedor{
+        width: auto;
+        position: relative;
+        left: -5px;
+    }
+    .texto{
+        width: 280px;
+        position: absolute;
+        left: -244px;
+    }
+    .contenedor-texto{
+        position: absolute;
+        left: 285px;
+    }
+    section.contenedor-rectangulo{
+        width: 370px;
+        position: absolute;
+        top: 700px;
+        left: 15px;
+    }
+    .contenedor-encriptado{
+        width: 200px;
+    }
+    .botones{
+        position: relative;
+        left: -155px;
+    }
+    .btn-encriptar{
+        width: 150px;
+    }
+    .btn-desencriptar{
+        width: 150px;
+        position: relative;
+        left: 260px;
+    }
+    .boton-copiar{
+        width: 150px;
+        position: absolute;
+        left: 100px;
+    }
+    
+}
+
+
+
+
+
